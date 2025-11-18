@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppLogo.jpg" width="220" alt="QuizPulse Logo">
->📱 # QuizPulse</p>
+># 📱  QuizPulse</p>
 
 QuizPulse is an interactive and modern quiz application built using Kotlin and Android Studio, designed to provide an enjoyable and customizable learning experience.
 The app integrates Firebase Authentication, Firestore Database, Cloud Messaging, biometric login, multilingual support, and advanced user-defined features such as difficulty levels, leaderboard, background music, timers, and more.
 
-🚀 ## Table of Contents
+🚀 Table of Contents
 
 Features
 
