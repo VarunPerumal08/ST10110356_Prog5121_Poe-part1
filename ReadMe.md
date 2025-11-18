@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppLogo.jpg" width="220" alt="QuizPulse Logo">
->📱 #QuizPulse</p>
+>📱 # QuizPulse</p>
 
 QuizPulse is an interactive and modern quiz application built using Kotlin and Android Studio, designed to provide an enjoyable and customizable learning experience.
 The app integrates Firebase Authentication, Firestore Database, Cloud Messaging, biometric login, multilingual support, and advanced user-defined features such as difficulty levels, leaderboard, background music, timers, and more.
 
-🚀 Table of Contents
+🚀 ## Table of Contents
 
 Features
 
@@ -27,8 +27,9 @@ Contributors
 
 License
 
-🚀 Features
-🧑‍💻 User Authentication
+🚀 ## Features
+
+🧑‍💻 ### User Authentication
 
 Email & Password registration
 
@@ -38,7 +39,7 @@ Biometric Login (Fingerprint/Face Unlock)
 
 Secure session management using Firebase Authentication
 
-🧠 Quiz System
+🧠 ### Quiz System
 
 ✔ Multiple quiz categories
 
@@ -58,7 +59,7 @@ Hard
 
 (Improves challenge + prevents guessing)
 
-🏆 Leaderboard & Scoreboard
+🏆 ### Leaderboard & Scoreboard
 
 Stores all quiz attempts
 
@@ -68,7 +69,7 @@ Displays top players globally
 
 Synced in real-time using Firebase Firestore
 
-🌍 Multilingual Support
+🌍 ### Multilingual Support
 
 QuizPulse now supports:
 
@@ -80,7 +81,7 @@ isiZulu
 
 The language can be changed in the settings screen.
 
-🔔 Real-Time Notifications
+🔔 ### Real-Time Notifications
 
 Using Firebase Cloud Messaging (FCM), users receive:
 
@@ -94,7 +95,7 @@ System alerts
 
 UI assets and themes are being prepared for the next release.
 
-🖼️ Screenshots
+🖼️ ### Screenshots
 
 📌 Home Screen
 ![Home Screen](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppHome.jpg)
@@ -118,11 +119,11 @@ UI assets and themes are being prepared for the next release.
 ![Leaderboard](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSettings.jpg)
 
 
-📘 ##Purpose of the Application
+📘 ## Purpose of the Application
 
 QuizPulse was developed as a modern, interactive quiz platform designed to make learning engaging, accessible, and measurable. The application combines gamification techniques with educational value, giving users a motivating environment to test and expand their knowledge.
 
-###The purpose of QuizPulse includes:
+### The purpose of QuizPulse includes:
 
 ✅ Enhancing learning through gamification
 
@@ -146,11 +147,11 @@ Through Firebase Authentication, Google Sign-In, and biometric login, users expe
 
 QuizPulse ultimately aims to blend education and entertainment into a seamless mobile learning tool that grows with the user’s skill and engagement.
 
-🧩 Design Considerations
+🧩 ## Design Considerations
 
 The app design follows best practices in UX, performance, security, and scalable architecture to ensure reliability and a smooth user experience.
 
-1. User Experience (UX)
+### 1. User Experience (UX)
 
 Clean, minimal layout with intuitive navigation
 
@@ -166,7 +167,7 @@ Multi-language support integrated into the UI
 
 Background music and sound effects to enhance engagement
 
-2. Performance
+### 2. Performance
 
 Firebase Realtime Database allows fast, lightweight data retrieval
 
@@ -180,7 +181,7 @@ Optimized layouts using ConstraintLayout and proper view hierarchy
 
 Timer and background processes optimized for minimal CPU usage
 
-3. Security
+### 3. Security
 
 Firebase Authentication ensures secure credential management
 
@@ -194,7 +195,7 @@ Secure password recovery and credential update flows
 
 Firebase rules applied to prevent unauthorized data access
 
-4. Scalability
+### 4. Scalability
 
 Firebase backend automatically scales with user growth
 
@@ -206,7 +207,7 @@ Modular Kotlin architecture enables easy updates (e.g., new categories, language
 
 Separation of concerns (UI, logic, data layers) improves maintainability
 
-🛠️ Use of GitHub & GitHub Actions
+🛠️ ## Use of GitHub & GitHub Actions
 
 GitHub and GitHub Actions played a critical role in the development and maintenance of QuizPulse.
 
@@ -262,7 +263,7 @@ To ensure the reliability and stability of QuizPulse, a dedicated GitHub Actions
 This workflow runs every time a commit is pushed to the main branch or when a Pull Request is opened.
 It ensures that all test cases pass before new code is merged, reducing bugs and preventing regressions.
 
-✅ Purpose of the Workflow
+✅ ### Purpose of the Workflow
 
 The Unit Test workflow was added to:
 
@@ -276,7 +277,7 @@ Give early feedback to developers during the CI/CD pipeline
 
 Ensure that quiz logic, authentication flows, and utility functions behave as expected
 
-🧪 What the Workflow Does
+🧪 ### What the Workflow Does
 
 This GitHub Action:
 
@@ -292,7 +293,7 @@ Executes the full suite of unit tests using:
 
 ./gradlew test --stacktrace
 
-📄 Unit Test Workflow Code
+📄 ### Unit Test Workflow Code
 
 Add this directly under your GitHub Actions section:
 
@@ -334,7 +335,7 @@ jobs:
       - name: Run Unit Tests
         run: ./gradlew test --stacktrace
 
-🧩 Why This Matters
+🧩 ### Why This Matters
 
 Including automated unit testing in the CI/CD pipeline:
 
@@ -351,7 +352,7 @@ Supports continuous integration best practices
 This workflow contributes significantly to the scalability, robustness, and long-term maintainability of the QuizPulse application.
 
 
-🧩 Tech Stack
+🧩 ## Tech Stack
 Component	Technology
 Frontend	Kotlin (Android Studio)
 Authentication	Firebase Authentication
@@ -361,7 +362,7 @@ UI Design	XML Layouts
 Version Control	Git + GitHub
 CI/CD	GitHub Actions
 
-⚙️ Setup & Installation
+⚙️ ## Setup & Installation
 Prerequisites
 
 Android Studio (latest)
@@ -377,22 +378,21 @@ Git (recommended)
 Running the App
 git clone https://github.com/ST10294145/QuizPulse.git
 
-
 Open project in Android Studio
 
 Connect device or emulator
 
 Run the project
 
-🧠 How It Works
+🧠 ## How It Works
 
-🔐 Authentication
+🔐 ### Authentication
 
 Register via email or Google SSO
 
 Optional: biometric unlock
 
-📚 Quiz
+📚 ### Quiz
 
 Select category
 
@@ -404,17 +404,17 @@ Answer questions
 
 Receive scoring instantly
 
-🏆 Leaderboard
+🏆 ### Leaderboard
 
 Scores saved automatically
 
 Global ranking updates live
 
-🔔 Notifications
+🔔 ### Notifications
 
 Reminders and new updates pushed via FCM
 
-📦 App Release Status
+📦 ### App Release Status
 
 Although the QuizPulse application has not yet been published to the Google Play Store due to administrative and technical issues with the developer account, the app is fully developed and production-ready.
 An APK build has been successfully generated, demonstrating that:
@@ -429,7 +429,7 @@ Only the final publishing step is pending
 
 Once the Google Play developer account is resolved, QuizPulse can be uploaded immediately for public release.
 
-🧪 Future Improvements
+🧪 ### Future Improvements
 
 Full Dark Mode
 
@@ -441,7 +441,7 @@ Larger question database
 
 Animated transitions
 
-🤝 Contributors
+🤝 ## Contributors
 
 ST10294145 — Saihil Gurupersad
 
@@ -451,10 +451,10 @@ ST10198206 — Nehara Pillay
 
 ST10110356 — Varun Perumal
 
-🪪 License
+🪪 ### License
 
 MIT License — free to use, modify, and distribute.
 
-🎥 Video Demonstration
+🎥 ## Video Demonstration
 
 Add your YouTube link here once uploaded.
