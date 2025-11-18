@@ -2,7 +2,12 @@
   <img src="https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppLogo.jpg" width="320" alt="QuizPulse Logo"/>
 </p>
 
-<h1 align="center">🌐 QuizPulse</h1>
+---
+
+<!-- BANNER -->
+<img src="https://dummyimage.com/1200x180/0066ff/ffffff&text=+🚀+Welcome+to+QuizPulse+" width="100%"/>
+
+---
 
 <p align="center">
   <strong>A modern, intelligent, and beautifully designed quiz application built with Kotlin & Firebase.</strong><br/>
@@ -11,10 +16,6 @@
 
 ---
 
-<!-- BANNER -->
-<img src="https://dummyimage.com/1200x180/0066ff/ffffff&text=+🚀+Welcome+to+QuizPulse+" width="100%"/>
-
----
 
 # 📘 Table of Contents
 > *Click to jump to any section instantly.*
@@ -149,20 +150,20 @@ QuizPulse ultimately aims to blend education and entertainment into a seamless m
 
 ## 🧩 Design Considerations The app design follows best practices in UX, performance, security, and scalable architecture to ensure reliability and a smooth user experience. 
 
-### 1. User Experience (UX) Clean, minimal layout with intuitive navigation High-contrast color themes for readability Large, easily tappable buttons for accessibility Simple category selection and interactive quiz flow Consistent screen layouts across devices Multi-language support integrated into the UI Background music and sound effects to enhance engagement 
+1. User Experience (UX) Clean, minimal layout with intuitive navigation High-contrast color themes for readability Large, easily tappable buttons for accessibility Simple category selection and interactive quiz flow Consistent screen layouts across devices Multi-language support integrated into the UI Background music and sound effects to enhance engagement 
 
-### 2. Performance Firebase Realtime Database allows fast, lightweight data retrieval Kotlin coroutines used for non-blocking operations Images and assets cached locally to improve loading speeds Efficient state management to reduce unnecessary recomputations Optimized layouts using ConstraintLayout and proper view hierarchy Timer and background processes optimized for minimal CPU usage 
+2. Performance Firebase Realtime Database allows fast, lightweight data retrieval Kotlin coroutines used for non-blocking operations Images and assets cached locally to improve loading speeds Efficient state management to reduce unnecessary recomputations Optimized layouts using ConstraintLayout and proper view hierarchy Timer and background processes optimized for minimal CPU usage 
 
-### 3. Security Firebase Authentication ensures secure credential management Google Sign-In with token validation Biometric authentication (fingerprint) for enhanced login security Encrypted data transmission via HTTPS Secure password recovery and credential update flows Firebase rules applied to prevent unauthorized data access 
+3. Security Firebase Authentication ensures secure credential management Google Sign-In with token validation Biometric authentication (fingerprint) for enhanced login security Encrypted data transmission via HTTPS Secure password recovery and credential update flows Firebase rules applied to prevent unauthorized data access 
 
-### 4. Scalability Firebase backend automatically scales with user growth Realtime Database supports large volumes of concurrent reads/writes Cloud Messaging supports mass notification delivery Modular Kotlin architecture enables easy updates (e.g., new categories, languages, or themes) Separation of concerns (UI, logic, data layers) improves maintainability
+4. Scalability Firebase backend automatically scales with user growth Realtime Database supports large volumes of concurrent reads/writes Cloud Messaging supports mass notification delivery Modular Kotlin architecture enables easy updates (e.g., new categories, languages, or themes) Separation of concerns (UI, logic, data layers) improves maintainability
 ---
 
 # 🛠️ Use of GitHub & GitHub Actions 
 
 GitHub and GitHub Actions played a critical role in the development and maintenance of QuizPulse. 
 
-## 🔹 GitHub Usage - GitHub was used extensively to streamline collaborative development, maintain code quality, and provide transparent version history. 
+### 🔹 GitHub Usage - GitHub was used extensively to streamline collaborative development, maintain code quality, and provide transparent version history. 
 
 ## Key uses include: 
 
@@ -184,7 +185,9 @@ GitHub and GitHub Actions played a critical role in the development and maintena
 
 - This ensured consistent quality and shared understanding of the project structure. 
 
-## 🔹 GitHub Actions: Unit Test Workflow To ensure the reliability and stability of QuizPulse, a dedicated GitHub Actions workflow for automated unit testing was implemented. This workflow runs every time a commit is pushed to the main branch or when a Pull Request is opened. It ensures that all test cases pass before new code is merged, reducing bugs and preventing regressions. 
+### 🔹 GitHub Actions: Unit Test Workflow To ensure the reliability and stability of QuizPulse, a dedicated GitHub Actions workflow for automated unit testing was implemented. 
+
+This workflow runs every time a commit is pushed to the main branch or when a Pull Request is opened. It ensures that all test cases pass before new code is merged, reducing bugs and preventing regressions. 
 
 ### ✅ Purpose of the Workflow The Unit Test workflow was added to: 
 
@@ -248,6 +251,8 @@ jobs:
 
 - This workflow contributes significantly to the scalability, robustness, and long-term maintainability of the QuizPulse application. 
 
+---
+
 # 🧩 Tech Stack 
 
 > Component Technology 
@@ -266,6 +271,7 @@ jobs:
 
 > CI/CD GitHub Actions 
 
+---
 
 # ⚙️ Setup & Installation
 
@@ -280,12 +286,18 @@ jobs:
 > Google Services JSON
 
 2️⃣ Clone Repo
-bash
-Copy code
+
+- bash -
+
+‼️Copy code‼️
+
 git clone https://github.com/ST10294145/QuizPulse.git
+
 3️⃣ Run the App
+
 Connect device ⛓️ → Build 🛠️ → Run the project 💻
 
+---
 
 # 🧠 How It Works
 
@@ -313,7 +325,10 @@ Connect device ⛓️ → Build 🛠️ → Run the project 💻
 
 
 ### 🔔 Notifications
-- Reminders and new updates pushed via FCM 
+- Reminders and new updates pushed via FCM
+  
+  ---
+
 
 ## 📦 App Release Status 
 
@@ -329,6 +344,8 @@ Connect device ⛓️ → Build 🛠️ → Run the project 💻
 
 ✅ Once the Google Play developer account is resolved, QuizPulse can be uploaded immediately for public release.
 
+---
+
 ## 🌟 Future Improvements
 
 > Dark mode
@@ -341,6 +358,8 @@ Connect device ⛓️ → Build 🛠️ → Run the project 💻
 
 > Animated transitions
 
+ ---
+
 ## 🤝 Contributors
 
 > ST10294145 — Saihil Gurupersad
@@ -351,7 +370,10 @@ Connect device ⛓️ → Build 🛠️ → Run the project 💻
 
 > ST10110356 — Varun Perumal
 
-🪪 License
+---
+
+
+## 🪪 License
 MIT License — free to use, modify, distribute.
 
 ---
