@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppLogo.jpg" width="220" alt="QuizPulse Logo"/>
+  <img src="https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppLogo.jpg" width="320" alt="QuizPulse Logo"/>
 </p>
 
 <h1 align="center">📱 QuizPulse</h1>
@@ -53,9 +53,9 @@ Secure session management using Firebase Authentication
 
 ✔ Difficulty levels:
 
-Easy
+❇️ Easy
 
-Hard
+🔴 Hard
 
 ✔ Background music to improve the user experience
 
@@ -65,39 +65,39 @@ Hard
 
 ### 🏆 Leaderboard & Scoreboard
 
-Stores all quiz attempts
+✔ Stores all quiz attempts
 
-Shows highest scores
+✔ Shows highest scores
 
-Displays top players globally
+✔ Displays top players globally
 
-Synced in real-time using Firebase Firestore
+✔ Synced in real-time using Firebase Firestore
 
 ### 🌍 Multilingual Support
 
 QuizPulse now supports:
 
-English
+🔷 English
 
-Afrikaans
+🔷 Afrikaans
 
-isiZulu
+🔷 isiZulu
 
-The language can be changed in the settings screen.
+🔷 The language can be changed in the settings screen.
 
 ### 🔔 Real-Time Notifications
 
 Using Firebase Cloud Messaging (FCM), users receive:
 
-Quiz reminders
+✔ Quiz reminders
 
-New category releases
+✔ New category releases
 
-Special updates
+✔ Special updates
 
-System alerts
+✔ System alerts
 
-UI assets and themes are being prepared for the next release.
+✔ UI assets and themes are being prepared for the next release.
 
 ## 🖼️ Screenshots
 
@@ -239,14 +239,6 @@ Key uses include:
 ✔ Version Control
 
 Every change was tracked using commits, allowing rollback and history auditing.
-
-✔ Branching & Merging
-
-Each team member worked in isolated feature branches
-
-Work was merged via Pull Requests
-
-Ensured safe integration without breaking main code
 
 ✔ Issue Tracking
 
@@ -407,21 +399,21 @@ Run the project
 
 ### 🔐 Authentication
 
-Register via email or Google SSO
+- Register via email or Google SSO
 
-Optional: biometric unlock
+- Optional: biometric unlock
 
 ### 📚 Quiz
 
-Select category
+- Select category
 
-Select difficulty
+- Select difficulty
 
-Timer starts
+- Timer starts
 
-Answer questions
+- Answer questions
 
-Receive scoring instantly
+- Receive scoring instantly
 
 ### 🏆 Leaderboard
 
