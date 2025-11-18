@@ -32,7 +32,8 @@ License
 
 ## 🚀 Features
 
-## 🧑‍💻 User Authentication
+
+### 🧑‍💻 User Authentication
 
 Email & Password registration
 
