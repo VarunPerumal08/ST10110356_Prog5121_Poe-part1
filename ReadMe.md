@@ -102,13 +102,14 @@ UI assets and themes are being prepared for the next release.
 
 ### 📌 Home Screen  
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppHome.jpg" width="300" height="400" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppHome.jpg" width="300" height="400" />
 </p>
 
-📌 Sign Up Screen  
-<p align="left">
-  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSignUp.jpg" width="300" height="400" />
+### 📌 Sign Up Screen 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppSignUp.jpg" width="300" height="400" />
 </p>
 
 📌 Login Screen  
