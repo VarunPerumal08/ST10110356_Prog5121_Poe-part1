@@ -478,9 +478,7 @@ MIT License — free to use, modify, and distribute.
 
 <p align="center">
   <a href="https://youtube.com/shorts/ujJWChi8kzQ?feature=share" target="_blank">
-    <img src="https://img.youtube.com/vi/ujJWChi8kzQ/0.jpg" alt="QuizePulse Video Preview" width="480" style="position: relative;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_play_button_icon_(2017).svg" 
-         alt="Play Button" width="100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"/>
+    <img src="YOUR_CUSTOM_THUMBNAIL_WITH_PLAY_BUTTON.jpg" alt="QuizePulse Video Preview" width="480"/>
   </a>
 </p>
 
