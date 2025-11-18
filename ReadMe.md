@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppLogo.jpg" width="220" alt="QuizPulse Logo"/>
+  <img src="https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppLogo.jpg" width="220" alt="QuizPulse Logo"/>
 </p>
 
 <h1 align="center">📱 QuizPulse</h1>
@@ -101,7 +101,7 @@ UI assets and themes are being prepared for the next release.
 ## 🖼️ Screenshots
 
 📌 Home Screen
-![Home Screen](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppHome.jpg)
+![Home Screen](https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppHome.jpg)
 
 📌 Sign Up Screen
 ![Sign Up Screen](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSignUp.jpg)
