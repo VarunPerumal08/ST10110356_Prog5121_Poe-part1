@@ -100,27 +100,41 @@ UI assets and themes are being prepared for the next release.
 
 ## 🖼️ Screenshots
 
-📌 Home Screen
-![Home Screen](https://raw.githubusercontent.com/VarunPerumal08/ST10110356_Prog5121_Poe-part1/main/AppHome.jpg)
+### 📌 Home Screen  
 
-📌 Sign Up Screen
-![Sign Up Screen](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSignUp.jpg)
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppHome.jpg" width="300" height="400" />
+</p>
 
-📌 Login Screen
-![Login Screen](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppLogin.jpg)
+📌 Sign Up Screen  
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSignUp.jpg" width="300" height="400" />
+</p>
 
-📌 Select Quiz Screen
-![Select Page](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSelectPage.jpg)
+📌 Login Screen  
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppLogin.jpg" width="300" height="400" />
+</p>
 
-📌 LeaderBoard
-![Leaderboard](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppLeaderBoard.jpg)
+📌 Select Quiz Screen  
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSelectPage.jpg" width="300" height="400" />
+</p>
 
-📌 Notifications
-![Leaderboard](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppNotification.jpg)
+📌 Leaderboard  
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppLeaderBoard.jpg" width="300" height="400" />
+</p>
 
-📌 Settings Page
-![Leaderboard](https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSettings.jpg)
+📌 Notifications  
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppNotification.jpg" width="300" height="400" />
+</p>
 
+📌 Settings Page  
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ST10294145/QuizePulse/main/AppSettings.jpg" width="300" height="400" />
+</p>
 
 ## 📘 Purpose of the Application
 
