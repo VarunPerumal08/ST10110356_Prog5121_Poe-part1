@@ -232,7 +232,7 @@ GitHub and GitHub Actions played a critical role in the development and maintena
 
 🔹 GitHub Usage
 
-GitHub was used extensively to streamline collaborative development, maintain code quality, and provide transparent version history.
+- GitHub was used extensively to streamline collaborative development, maintain code quality, and provide transparent version history.
 
 Key uses include:
 
@@ -244,13 +244,13 @@ Every change was tracked using commits, allowing rollback and history auditing.
 
 GitHub Issues were used to:
 
-Document bugs
+- Document bugs
 
-Track new features
+- Track new features
 
-Assign tasks to team members
+- Assign tasks to team members
 
-Monitor project progress
+- Monitor project progress
 
 ✔ Documentation Hosting
 
@@ -260,13 +260,13 @@ The README and other documentation files were hosted directly in the GitHub repo
 
 Team members collaborated through:
 
-Code reviews
+- Code reviews
 
-Inline comments
+- Inline comments
 
-Pull Request discussions
+- Pull Request discussions
 
-This ensured consistent quality and shared understanding of the project structure.
+- This ensured consistent quality and shared understanding of the project structure.
 
 ## 🔹 GitHub Actions: Unit Test Workflow
 
@@ -278,29 +278,29 @@ It ensures that all test cases pass before new code is merged, reducing bugs and
 
 The Unit Test workflow was added to:
 
-Automatically verify core logic after every change
+- Automatically verify core logic after every change
 
-Prevent broken code from being merged into main
+- Prevent broken code from being merged into main
 
-Maintain consistent code quality
+- Maintain consistent code quality
 
-Give early feedback to developers during the CI/CD pipeline
+- Give early feedback to developers during the CI/CD pipeline
 
-Ensure that quiz logic, authentication flows, and utility functions behave as expected
+- Ensure that quiz logic, authentication flows, and utility functions behave as expected
 
 ### 🧪 What the Workflow Does
 
 This GitHub Action:
 
-Checks out the repository
+- Checks out the repository
 
-Sets up Java 17 (required for Android builds)
+- Sets up Java 17 (required for Android builds)
 
-Caches Gradle for faster runs
+- Caches Gradle for faster runs
 
-Grants execution permission to gradlew
+- Grants execution permission to gradlew
 
-Executes the full suite of unit tests using:
+- Executes the full suite of unit tests using:
 
 ./gradlew test --stacktrace
 
@@ -350,50 +350,58 @@ jobs:
 
 Including automated unit testing in the CI/CD pipeline:
 
-Ensures high project stability
+- Ensures high project stability
 
-Reduces manual testing time
+- Reduces manual testing time
 
-Prevents defects from reaching production
+- Prevents defects from reaching production
 
-Helps maintain clean, reliable code
+- Helps maintain clean, reliable code
 
-Supports continuous integration best practices
+- Supports continuous integration best practices
 
-This workflow contributes significantly to the scalability, robustness, and long-term maintainability of the QuizPulse application.
+- This workflow contributes significantly to the scalability, robustness, and long-term maintainability of the QuizPulse application.
 
 
 ## 🧩 Tech Stack
-Component	Technology
-Frontend	Kotlin (Android Studio)
-Authentication	Firebase Authentication
-Database	Firebase Firestore
-Notifications	Firebase Cloud Messaging
-UI Design	XML Layouts
-Version Control	Git + GitHub
-CI/CD	GitHub Actions
+
+> Component	Technology
+
+> Frontend	Kotlin (Android Studio)
+
+> Authentication	Firebase Authentication
+
+> Database	Firebase Firestore
+
+> Notifications	Firebase Cloud Messaging
+
+> UI Design	XML Layouts
+
+> Version Control	Git + GitHub
+
+> CI/CD	GitHub Actions
 
 ## ⚙️ Setup & Installation
 Prerequisites
 
-Android Studio (latest)
+> Android Studio (latest)
 
-Firebase Project
+> Firebase Project
 
-Android SDK
+> Android SDK
 
-Google Services JSON file
+> Google Services JSON file
 
-Git (recommended)
+> Git (recommended)
 
-Running the App
+##‼️ Running the App ‼️
 git clone https://github.com/ST10294145/QuizPulse.git
 
-Open project in Android Studio
+### ✅ Open project in Android Studio ✅
 
-Connect device or emulator
+### ⛓️ Connect device or emulator ⛓️
 
-Run the project
+### 💻 Run the project 💻
 
 ## 🧠 How It Works
 
@@ -417,28 +425,28 @@ Run the project
 
 ### 🏆 Leaderboard
 
-Scores saved automatically
+- Scores saved automatically
 
-Global ranking updates live
+- Global ranking updates live
 
 ### 🔔 Notifications
 
-Reminders and new updates pushed via FCM
+- Reminders and new updates pushed via FCM
 
 ## 📦 App Release Status
 
 Although the QuizPulse application has not yet been published to the Google Play Store due to administrative and technical issues with the developer account, the app is fully developed and production-ready.
 An APK build has been successfully generated, demonstrating that:
 
-The application compiles without errors
+✅ The application compiles without errors
 
-All core features function as intended
+✅ All core features function as intended
 
-The app is stable and ready for deployment
+✅ The app is stable and ready for deployment
 
-Only the final publishing step is pending
+✅ Only the final publishing step is pending
 
-Once the Google Play developer account is resolved, QuizPulse can be uploaded immediately for public release.
+✅ Once the Google Play developer account is resolved, QuizPulse can be uploaded immediately for public release.
 
 ### 🧪 Future Improvements
 
@@ -468,4 +476,11 @@ MIT License — free to use, modify, and distribute.
 
 ## 🎥 Video Demonstration
 
-Add your YouTube link here once uploaded.
+<p align="center">
+  <a href="https://youtube.com/shorts/ujJWChi8kzQ?feature=share" target="_blank">
+    <img src="https://img.youtube.com/vi/ujJWChi8kzQ/0.jpg" alt="QuizePulse Video Preview" width="480" style="position: relative;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_play_button_icon_(2017).svg" 
+         alt="Play Button" width="100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"/>
+  </a>
+</p>
+
